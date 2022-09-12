@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billion to Trillion Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="trillionRadio" name="variables" checked>
+  <label for="trillionRadio">Trillion</label>
+
+  <input type="radio" id="billionRadio" name="variables">
+  <label for="billionRadio">Billion</label>
+
+  <input type="radio" id="scientificnotationRadio" name="variables">
+  <label for="scientificnotationRadio">Scientific notation</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v" id="variable">Billion</label>
+  <input type="number" id="v"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
